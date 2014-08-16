@@ -5,7 +5,7 @@ package Tie::Tools;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = '1.06';
+$VERSION = '1.07';
 
 1;
 
@@ -61,7 +61,7 @@ I volunteered to contribute further to the development of the modules,
 but it is still kept under the name of Ariel Brosh - the original
 author.
 
-Jonas B. Nielsen <jonasbn@cpan.dk>
+Jonas B. Nielsen <jonasbn@cpan.org>
 
 =head1 ACKNOWLEDGEMENTS
 
