@@ -2,7 +2,11 @@
 abstract: 'a collection of tying tools'
 author:
   - 'Jonas B. Nielsen <jonasbn@cpan.org>'
-build_requires: {}
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 0
@@ -17,4 +21,8 @@ requires:
   Tie::DBI: 0
   Tie::Hash: 0
   perl: 5.008
-version: 1.07
+resources:
+  bugtracker: https://github.com/gitpan/Tie-Tools/issues
+  homepage: http://search.cpan.org/dist/Tie-Tools/
+  repository: git://github.com/gitpan/Tie-Tools.git
+version: 1.08

@@ -24,7 +24,13 @@ my %WriteMakefileArgs = (
     "Tie::DBI" => 0,
     "Tie::Hash" => 0
   },
-  "VERSION" => "1.07",
+  "TEST_REQUIRES" => {
+    "File::Spec" => 0,
+    "IO::Handle" => 0,
+    "IPC::Open3" => 0,
+    "Test::More" => 0
+  },
+  "VERSION" => "1.08",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -32,6 +38,10 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "File::Spec" => 0,
+  "IO::Handle" => 0,
+  "IPC::Open3" => 0,
+  "Test::More" => 0,
   "Tie::Cache" => "0.08",
   "Tie::DBI" => 0,
   "Tie::Hash" => 0

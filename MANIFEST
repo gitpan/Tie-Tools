@@ -7,6 +7,8 @@ Makefile.PL
 README
 README.mkdn
 TODO
+Tie-Tools.sublime-project
+Tie-Tools.sublime-workspace
 dist.ini
 lib/Tie/Collection.pm
 lib/Tie/DeepTied.pm
@@ -16,7 +18,7 @@ lib/Tie/NormalArray.pm
 lib/Tie/Parent.pm
 lib/Tie/Tools.pm
 lib/Tie/dbi/ER.pm
-t/kwalitee.t
-t/pod-coverage.t
-t/pod.t
+t/00-compile.t
+t/release-cpan-changes.t
+t/release-kwalitee.t
 test.pl
