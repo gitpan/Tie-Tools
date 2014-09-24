@@ -12,8 +12,12 @@ use ExtUtils::MakeMaker ;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "a collection of tying tools",
   "AUTHOR" => "Jonas B. Nielsen <jonasbn\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Module::Build" => "0.30"
+  },
   "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => 0
+    "ExtUtils::MakeMaker" => 0,
+    "Module::Build" => "0.30"
   },
   "DISTNAME" => "Tie-Tools",
   "EXE_FILES" => [],
@@ -30,7 +34,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.08",
+  "VERSION" => "1.09",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,6 +45,7 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "Module::Build" => "0.30",
   "Test::More" => 0,
   "Tie::Cache" => "0.08",
   "Tie::DBI" => 0,

@@ -6,9 +6,11 @@ build_requires:
   File::Spec: 0
   IO::Handle: 0
   IPC::Open3: 0
+  Module::Build: 0.30
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
+  Module::Build: 0.30
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: artistic
@@ -24,5 +26,5 @@ requires:
 resources:
   bugtracker: https://github.com/gitpan/Tie-Tools/issues
   homepage: http://search.cpan.org/dist/Tie-Tools/
-  repository: git://github.com/gitpan/Tie-Tools.git
-version: 1.08
+  repository: https://github.com/jonasbn/Tie-Tools.git
+version: 1.09

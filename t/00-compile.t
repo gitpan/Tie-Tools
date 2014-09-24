@@ -4,19 +4,18 @@ use warnings;
 
 # this test was generated with Dist::Zilla::Plugin::Test::Compile 2.045
 
-use Test::More  tests => 8;
+use Test::More  tests => 7;
 
 
 
 my @module_files = (
     'Tie/Collection.pm',
+    'Tie/DBI/ER.pm',
     'Tie/DeepTied.pm',
-    'Tie/Depth.pm',
     'Tie/Func.pm',
     'Tie/NormalArray.pm',
     'Tie/Parent.pm',
-    'Tie/Tools.pm',
-    'Tie/dbi/ER.pm'
+    'Tie/Tools.pm'
 );
 
 

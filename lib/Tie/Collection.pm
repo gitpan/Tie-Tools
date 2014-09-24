@@ -1,13 +1,11 @@
 package Tie::Collection;
 
-# $Id: Collection.pm 1883 2007-10-29 21:18:13Z jonasbn $
-
 use Tie::Cache;
 use strict;
 use warnings;
 use vars qw(@ISA $VERSION);
 
-$VERSION = '1.08';
+$VERSION = '1.09';
 
 @ISA = qw(Tie::Cache);
 
@@ -49,6 +47,8 @@ sub flush {
 
 __END__
 
+=pod
+
 =head1 NAME
 
 Tie::Collection - A trivial implementaion of Tie::Cache by using a tied
@@ -77,6 +77,16 @@ again and again.
 
 Tie::Collection needs two parameters: The handled of the tied hash, and a
 hashref with parameters to pass to B<Tie::Cache>. (See manpage).
+
+=head1 SUBROUTINES/METHODS
+
+=head2 TIEHASH
+
+=head2 read
+
+=head2 write
+
+=head2 flush
 
 =head1 AUTHOR
 
