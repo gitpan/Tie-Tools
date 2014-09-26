@@ -36,6 +36,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Test::Class" : "0",
             "Tie::Cache" : "0.08",
             "Tie::DBI" : "0",
             "Tie::Hash" : "0",
@@ -59,10 +60,10 @@
       "homepage" : "http://search.cpan.org/dist/Tie-Tools/",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/jonasbn/Tie-Tools.git",
-         "web" : "https://github.com/jonasbn/Tie-Tools"
+         "url" : "git://github.com/gitpan/Tie-Tools.git",
+         "web" : "https://github.com/gitpan/Tie-Tools"
       }
    },
-   "version" : "1.09"
+   "version" : "1.10"
 }
 

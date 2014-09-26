@@ -24,6 +24,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "artistic",
   "NAME" => "Tie::Tools",
   "PREREQ_PM" => {
+    "Test::Class" => 0,
     "Tie::Cache" => "0.08",
     "Tie::DBI" => 0,
     "Tie::Hash" => 0
@@ -34,7 +35,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.09",
+  "VERSION" => "1.10",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -46,6 +47,7 @@ my %FallbackPrereqs = (
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "Module::Build" => "0.30",
+  "Test::Class" => 0,
   "Test::More" => 0,
   "Tie::Cache" => "0.08",
   "Tie::DBI" => 0,

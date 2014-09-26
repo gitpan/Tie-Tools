@@ -19,6 +19,7 @@ meta-spec:
   version: 1.4
 name: Tie-Tools
 requires:
+  Test::Class: 0
   Tie::Cache: 0.08
   Tie::DBI: 0
   Tie::Hash: 0
@@ -26,5 +27,5 @@ requires:
 resources:
   bugtracker: https://github.com/gitpan/Tie-Tools/issues
   homepage: http://search.cpan.org/dist/Tie-Tools/
-  repository: https://github.com/jonasbn/Tie-Tools.git
-version: 1.09
+  repository: git://github.com/gitpan/Tie-Tools.git
+version: 1.10

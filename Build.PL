@@ -19,12 +19,13 @@ my %module_build_args = (
     "Jonas B. Nielsen <jonasbn\@cpan.org>"
   ],
   "dist_name" => "Tie-Tools",
-  "dist_version" => "1.09",
+  "dist_version" => "1.10",
   "license" => "artistic",
   "module_name" => "Tie::Tools",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
+    "Test::Class" => 0,
     "Tie::Cache" => "0.08",
     "Tie::DBI" => 0,
     "Tie::Hash" => 0,
